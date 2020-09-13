@@ -50,7 +50,7 @@ namespace catdriveupload.Controllers
         public IActionResult checkUser(Auth auth)
         {
             Console.WriteLine(auth.username);
-            if ("xiaolingms".Equals(auth.username) && "Iwantslq1314..$".Equals(auth.password))
+            if ("xxxx".Equals(auth.username) && "xxxxxx".Equals(auth.password))
             {
                 path = auth.path;
                 isUpload = true;
